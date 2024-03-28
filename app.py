@@ -15,7 +15,7 @@ os.environ['REPLICATE_API_TOKEN'] = "r8_1zpji3cFaavpFdFWwCPqu1AuOrFu5bV0Jlz5f"
 pinecone.init(api_key='606d656e-8435-4cad-a19b-af1dc5a33729', environment='gcp-starter')
 
 # Load and preprocess the PDF document
-loader = PyPDFLoader('./TakeBackYourPower.pdf')
+loader = PyPDFLoader('./estudio.pdf')
 documents = loader.load()
 
 # Split the documents into smaller chunks for processing
